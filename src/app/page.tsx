@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-purple-500 to-indigo-600 text-white">
@@ -26,14 +27,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Picture section with animated placeholder */}
-      <div className="mt-12">
-        <h3 className="text-3xl mb-4">A Glimpse of My Work</h3>
-        <div className="bg-white text-black w-64 h-64 rounded-full mx-auto shadow-lg flex items-center justify-center animate-glow">
-          <p className="text-xl">[Your Picture Here]</p>
-        </div>
-      </div>
     </div>
   );
 }

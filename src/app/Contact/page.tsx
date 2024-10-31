@@ -23,10 +23,10 @@ export default function Contact() {
 
       {/* Contact Info */}
       <div className="mt-10 space-y-4 text-center text-gray-700">
-        <p>Email: <a href="mailto:muhammadsaimnadeem@example.com" className="text-blue-600 hover:underline">muhammadsaimnadeem@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com" className="text-blue-600 hover:underline">LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com" className="text-blue-600 hover:underline">GitHub Profile</a></p>
-        <p>Phone: +123456789</p>
+        <p>Email: <a href="saimdilse2004@gmail.com" className="text-blue-600 hover:underline">saimdilse2004@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-saim-nadeem/" className="text-blue-600 hover:underline">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/SaimSM" className="text-blue-600 hover:underline">GitHub Profile</a></p>
+        <p>Phone: +923122396334</p>
       </div>
     </div>
   );

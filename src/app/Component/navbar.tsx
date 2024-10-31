@@ -77,16 +77,48 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-500 p-4 shadow-lg">
+    <nav className="bg-gradient-to-r from-blue-500 to-purple-600 p-5 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-white text-2xl font-bold">My Portfolio</h1>
-        <ul className="flex space-x-6">
-          <li><Link href="/" className="text-white hover:text-gray-200">Home</Link></li>
-          <li><Link href="/About" className="text-white hover:text-gray-200">About</Link></li>
-          <li><Link href="/Contact" className="text-white hover:text-gray-200">Contact</Link></li>
-          <li><Link href="/Project" className="text-white hover:text-gray-200">Project</Link></li>
-          <li><Link href="/Skills" className="text-white hover:text-gray-200">Skill</Link></li>
-
+        <h1 className="text-white text-3xl font-extrabold tracking-wide cursor-pointer hover:text-gray-200 transition duration-300">
+          My Portfolio
+        </h1>
+        
+        <ul className="flex space-x-8">
+          <li>
+            <Link href="/">
+              <span className="text-white px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-white hover:text-blue-600 shadow-md hover:shadow-lg cursor-pointer">
+                Home
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/About">
+              <span className="text-white px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-white hover:text-blue-600 shadow-md hover:shadow-lg cursor-pointer">
+                About
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/Contact">
+              <span className="text-white px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-white hover:text-blue-600 shadow-md hover:shadow-lg cursor-pointer">
+                Contact
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/Project">
+              <span className="text-white px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-white hover:text-blue-600 shadow-md hover:shadow-lg cursor-pointer">
+                Project
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/Skills">
+              <span className="text-white px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-white hover:text-blue-600 shadow-md hover:shadow-lg cursor-pointer">
+                Skills
+              </span>
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -7,10 +7,10 @@ export default function Projects() {
         
         {/* Project 1 */}
         <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
-          <h3 className="text-2xl font-bold mb-4">Project 1</h3>
-          <p className="mb-4">Description of Project 1</p>
+          <h3 className="text-2xl font-bold mb-4">Pixel perfect design</h3>
+          <p className="mb-4">made a pixel perfect design using figma file with the help of nextjs</p>
           <a 
-            href="https://github.com/your-repo-link-for-project-1" 
+            href="https://github.com/SaimSM/Pixel-perfect-design" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
@@ -21,10 +21,10 @@ export default function Projects() {
 
         {/* Project 2 */}
         <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
-          <h3 className="text-2xl font-bold mb-4">Project 2</h3>
-          <p className="mb-4">Description of Project 2</p>
+          <h3 className="text-2xl font-bold mb-4">Portfolio</h3>
+          <p className="mb-4">Created a portfolio using nextjs</p>
           <a 
-            href="https://github.com/your-repo-link-for-project-2" 
+            href="https://github.com/SaimSM/portfolio" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
@@ -35,10 +35,24 @@ export default function Projects() {
 
         {/* Project 3 */}
         <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
-          <h3 className="text-2xl font-bold mb-4">Project 3</h3>
-          <p className="mb-4">Description of Project 3</p>
+          <h3 className="text-2xl font-bold mb-4">My Website</h3>
+          <p className="mb-4">Created a website to check my hand-on experince in tailwind CSS</p>
           <a 
-            href="https://github.com/your-repo-link-for-project-3" 
+            href="https://github.com/SaimSM/mywebsite" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 4 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Resume</h3>
+          <p className="mb-4">Build a resume using HTML, CSS and Javascript</p>
+          <a 
+            href="https://github.com/SaimSM/Resume-Builder" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
