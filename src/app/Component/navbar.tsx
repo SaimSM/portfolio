@@ -80,7 +80,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-blue-500 to-purple-600 p-5 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-white text-3xl font-extrabold tracking-wide cursor-pointer hover:text-gray-200 transition duration-300">
-          My Portfolio
+         <Link href="/">My Portfolio</Link>
         </h1>
         
         <ul className="flex space-x-8">
