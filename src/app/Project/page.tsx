@@ -61,6 +61,90 @@ export default function Projects() {
           </a>
         </div>
 
+        {/* Project 5 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">2D floor plan</h3>
+          <p className="mb-4">2D floor plan using Javascript,CSS and HTML</p>
+          <a 
+            href="https://github.com/SaimSM/2d-floorplan" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 6 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Sabroso Clone</h3>
+          <p className="mb-4">Sabroso clone using HTML, CSS and Javascript</p>
+          <a 
+            href="https://github.com/SaimSM/Sabroso-clone" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 7 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Countdown App</h3>
+          <p className="mb-4">Countdown app build using nextjs and tailwind CSS</p>
+          <a 
+            href="https://github.com/SaimSM/countdown-app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 8 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Weatherwidget App</h3>
+          <p className="mb-4">Weatherwidget app build using nextjs and tailwind CSS</p>
+          <a 
+            href="https://github.com/SaimSM/Resume-Builder" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 9 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">BMI Calculator</h3>
+          <p className="mb-4">BMI calculator build using nextjs and tailwind CSS</p>
+          <a 
+            href="https://github.com/SaimSM/Resume-Builder" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 10 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Snake Game</h3>
+          <p className="mb-4">Snake game build using nextjs and tailwind CSS</p>
+          <a 
+            href="https://github.com/SaimSM/Resume-Builder" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
       </div>
     </div>
   );
