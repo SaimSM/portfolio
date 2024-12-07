@@ -105,7 +105,7 @@ export default function Projects() {
 
         {/* Project 8 */}
         <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
-          <h3 className="text-2xl font-bold mb-4">Weatherwidget App</h3>
+          <h3 className="text-2xl font-bold mb-4">WeatherWidget App</h3>
           <p className="mb-4">Weatherwidget app build using nextjs and tailwind CSS</p>
           <a 
             href="https://github.com/SaimSM/Resume-Builder" 
@@ -136,7 +136,7 @@ export default function Projects() {
           <h3 className="text-2xl font-bold mb-4">Snake Game</h3>
           <p className="mb-4">Snake game build using nextjs and tailwind CSS</p>
           <a 
-            href="https://github.com/SaimSM/Resume-Builder" 
+            href="https://github.com/SaimSM/snake-game" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
@@ -144,6 +144,48 @@ export default function Projects() {
             View on GitHub
           </a>
         </div>
+
+         {/* Project 11 */}
+         <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Word Counter App</h3>
+          <p className="mb-4">word counter app build using nextjs and tailwind CSS</p>
+          <a 
+            href="https://github.com/SaimSM/word-counter-app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 12 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Saas website clone</h3>
+          <p className="mb-4">Saas website clone build using nextjs and tailwind CSS</p>
+          <a 
+            href="https://github.com/SaimSM/Saas-page-clone" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+                {/* Project 13 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Task Manager</h3>
+          <p className="mb-4">Build a task manager using Nextjs and tailwind CSS and for functionality we use React hooks</p>
+          <a 
+            href="https://github.com/SaimSM/task-manager" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
 
       </div>
     </div>
