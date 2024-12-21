@@ -186,6 +186,21 @@ export default function Projects() {
           </a>
         </div>
 
+                {/* Project 14 */}
+                <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Nike Clone</h3>
+          <p className="mb-4">Build a Nike clone using Nextjs and tailwind CSS and for functionality we use React hooks</p>
+          <a 
+            href="https://github.com/SaimSM/Nike-Store" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+        
+
 
       </div>
     </div>
