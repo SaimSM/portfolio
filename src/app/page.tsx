@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105">
             <h3 className="text-2xl font-bold mb-2">Experience</h3>
-            <p>Python Developer at a shipping company, Web Developer, and passionate about front-end technologies.</p>
+            <p>Front-end Developer at a shipping company, Web Developer, and passionate about front-end technologies.</p>
           </div>
         </div>
       </section>
