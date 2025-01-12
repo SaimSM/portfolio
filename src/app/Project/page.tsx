@@ -199,6 +199,63 @@ export default function Projects() {
             View on GitHub
           </a>
         </div>
+
+          {/* Project 15 */}
+          <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">School system dashboard</h3>
+          <p className="mb-4">Build a school system dashboard using Nextjs and tailwind CSS and for functionality we use React hooks</p>
+          <a 
+            href="https://github.com/SaimSM/school-system-dashboard" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+        
+        {/* Project 16 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Admission counseling system</h3>
+          <p className="mb-4">Build a admission counseling system using Nextjs and tailwind CSS and for functionality we use React hooks</p>
+          <a 
+            href="https://github.com/SaimSM/admission-counseling-system" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+        
+        {/* Project 17 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">Admission counseling system</h3>
+          <p className="mb-4">Build a admission counseling system using Nextjs and tailwind CSS and for functionality we use React hooks</p>
+          <a 
+            href="https://github.com/SaimSM/admission-counseling-system" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        {/* Project 18 */}
+        <div className="bg-white text-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 className="text-2xl font-bold mb-4">todo-list app</h3>
+          <p className="mb-4">Build a todo-list app using Nextjs and tailwind CSS and for functionality we use React hooks</p>
+          <a 
+            href="https://github.com/SaimSM/todo-list-app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            View on GitHub
+          </a>
+        </div>
+        
         
 
 
